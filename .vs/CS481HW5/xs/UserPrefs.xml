@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{B676692B-403A-4069-95AA-8BA7C9986C01}|Default">
+  <MonoDevelop.Ide.ItemProperties.CS481HW5.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CS481HW5/MainPage.xaml">
+    <Files>
+      <File FileName="CS481HW5/MainPage.xaml" Line="4" Column="96" />
+      <File FileName="CS481HW5/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="CS481HW5/MainPage.xaml.cs" Line="8" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CS481HW5" expanded="True">
+            <Node name="CS481HW5" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+            </Node>
+            <Node name="CS481HW5.Android" expanded="True">
+              <Node name="Packages" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CS481HW5.iOS FirstBuild="True" automaticSigning="False" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
