@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Maps;
+using CS481HW5.Model;
+using CS481HW5.ViewModel;
 
 
 namespace CS481HW5
@@ -22,11 +24,13 @@ namespace CS481HW5
             /*maps = new Map();
             Content = maps; */
             InitializeComponent();
-
+            BindingContext = new StoresViewModel();
             //Position position = new Position(33.1392, -117.1695);
             //MapSpan mapSpan = new MapSpan(position, 3.0, 3.0);
             //maps = new MapSpan(mapSpan);
         }
+
+
 
         
 
