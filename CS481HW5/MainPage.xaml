@@ -8,9 +8,11 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"></ColumnDefinition>
                 <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Button Text="Satellite" FontSize="Small" TextColor="Black" Clicked="OnSatClicked" Grid.Row="0" Grid.Column="1"></Button>
-            <Button Text="Street" FontSize="Small" TextColor="Black" Clicked="BacktoStreet" Grid.Row="0" Grid.Column="0"></Button>
+            <Button Text="Satellite" FontSize="Micro" TextColor="Black" Clicked="OnSatClicked" Grid.Row="0" Grid.Column="1"></Button>
+            <Button Text="Street" FontSize="Micro" TextColor="Black" Clicked="BacktoStreet" Grid.Row="0" Grid.Column="0"></Button>
+            <Button Text="Pins" FontSize="Micro" TextColor="Black" Clicked="AddPins" Grid.Row="0" Grid.Column="2"></Button>
         </Grid>
         <maps:Map x:Name="HomeMap" HasScrollEnabled="True" IsShowingUser="True" HasZoomEnabled="True">
             <x:Arguments>
@@ -22,8 +24,8 @@
                                 <x:Double>-117.1695</x:Double>
                             </x:Arguments>
                         </maps:Position>
-                        <x:Double>0.005</x:Double>
-                        <x:Double>0.005</x:Double>
+                        <x:Double>0.05</x:Double>
+                        <x:Double>0.05</x:Double>
                     </x:Arguments>
                 </maps:MapSpan>
             </x:Arguments>

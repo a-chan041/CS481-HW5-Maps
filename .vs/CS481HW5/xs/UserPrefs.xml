@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{B676692B-403A-4069-95AA-8BA7C9986C01}|Default">
   <MonoDevelop.Ide.ItemProperties.CS481HW5.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CS481HW5/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CS481HW5/MainPage.xaml.cs">
     <Files>
-      <File FileName="CS481HW5/MainPage.xaml" Line="26" Column="40" />
-      <File FileName="CS481HW5/MainPage.xaml.cs" Line="36" Column="116" />
+      <File FileName="CS481HW5/MainPage.xaml" Line="27" Column="39" />
+      <File FileName="CS481HW5/MainPage.xaml.cs" Line="76" Column="52" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +14,9 @@
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="App.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" selected="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="CS481HW5.Android" expanded="True">
               <Node name="Properties" expanded="True" />

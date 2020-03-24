@@ -541,3 +541,4 @@
 /Users/amandachan/Projects/CS481HW5/CS481HW5.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/amandachan/Projects/CS481HW5/CS481HW5.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/amandachan/Projects/CS481HW5/CS481HW5.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/amandachan/Projects/CS481HW5/CS481HW5.Android/obj/Debug/stamp/SetupDependenciesForDesigner.stamp
