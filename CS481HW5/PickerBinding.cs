@@ -7,8 +7,8 @@ namespace CS481HW5.Model
 {
     public class Places
     {
-        public string Name { get; set; }
-        public string Location { get; set; }
+        public string Name { get; set; } //binding context Name
+        public string Location { get; set; } //binding context Location
         //public Map maps { get; set; }
        
     }

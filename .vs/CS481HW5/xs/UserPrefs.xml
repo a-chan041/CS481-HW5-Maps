@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{B676692B-403A-4069-95AA-8BA7C9986C01}|Default">
   <MonoDevelop.Ide.ItemProperties.CS481HW5.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CS481HW5/Stores.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CS481HW5/PickerBinding.cs">
     <Files>
-      <File FileName="CS481HW5/MainPage.xaml" Line="22" Column="40" />
-      <File FileName="CS481HW5/MainPage.xaml.cs" Line="78" Column="87" />
-      <File FileName="CS481HW5/PickerBinding.cs" Line="9" Column="6" />
-      <File FileName="CS481HW5/Stores.cs" Line="40" Column="47" />
+      <File FileName="CS481HW5/MainPage.xaml" Line="15" Column="13" />
+      <File FileName="CS481HW5/MainPage.xaml.cs" Line="52" Column="75" />
+      <File FileName="CS481HW5/PickerBinding.cs" Line="11" Column="72" />
+      <File FileName="CS481HW5/Stores.cs" Line="52" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +17,7 @@
               </Node>
               <Node name="App.xaml" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
-              <Node name="Stores.cs" selected="True" />
+              <Node name="PickerBinding.cs" selected="True" />
             </Node>
             <Node name="CS481HW5.Android" expanded="True">
               <Node name="Properties" expanded="True" />

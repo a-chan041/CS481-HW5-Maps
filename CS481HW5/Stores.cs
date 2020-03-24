@@ -11,7 +11,7 @@ namespace CS481HW5.ViewModel
 
         public StoresViewModel()
         {
-            Store = new List<Places>();
+            Store = new List<Places>(); //list for picker
 
             Store.Add(new Places
             { 
@@ -37,8 +37,16 @@ namespace CS481HW5.ViewModel
 
             Store.Add(new Places
             {
-                Name = "Self Quarantine (Home)",
+                Name = "Self Quarantine aka home",
                 Location = "353 W San Marcos Blvd, San Marcos, CA 92069, United States",
+                //maps= new Position (32.666570, -117.099840),
+
+            });
+
+            Store.Add(new Places
+            {
+                Name = "Discovery Lake",
+                Location = "3650 Foxhall Dr, San Marcos, CA 92078, United States",
                 //maps= new Position (32.666570, -117.099840),
 
             });

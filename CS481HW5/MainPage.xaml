@@ -14,7 +14,7 @@
             <Button Text="Street" FontSize="Micro" TextColor="Black" Clicked="BacktoStreet" Grid.Row="0" Grid.Column="0"></Button>
             <Button Text="Pins" FontSize="Micro" TextColor="Black" Clicked="AddPins" Grid.Row="0" Grid.Column="2"></Button>
         </Grid>
-        <Picker Title="Select a location" TitleColor="Black" FontSize="Micro" ItemsSource="{Binding Store}" ItemDisplayBinding="{Binding Name}"></Picker>
+        <Picker x:Name="Picker" Title="Select a location" TitleColor="Black" FontSize="Micro" ItemsSource="{Binding Store}" ItemDisplayBinding="{Binding Name}"></Picker>
         <maps:Map x:Name="HomeMap" HasScrollEnabled="True" IsShowingUser="True" HasZoomEnabled="True">
             <x:Arguments>
                 <maps:MapSpan>
