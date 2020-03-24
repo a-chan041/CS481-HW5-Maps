@@ -1,12 +1,11 @@
-/Users/amandachan/Projects/CS481HW5/CS481HW5/obj/Debug/netstandard2.0/App.xaml.g.cs
-/Users/amandachan/Projects/CS481HW5/CS481HW5/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
-/Users/amandachan/Projects/CS481HW5/CS481HW5/obj/Debug/netstandard2.0/CS481HW5.AssemblyInfoInputs.cache
-/Users/amandachan/Projects/CS481HW5/CS481HW5/obj/Debug/netstandard2.0/CS481HW5.AssemblyInfo.cs
 /Users/amandachan/Projects/CS481HW5/CS481HW5/bin/Debug/netstandard2.0/CS481HW5.deps.json
 /Users/amandachan/Projects/CS481HW5/CS481HW5/bin/Debug/netstandard2.0/CS481HW5.dll
 /Users/amandachan/Projects/CS481HW5/CS481HW5/bin/Debug/netstandard2.0/ref/CS481HW5.dll
 /Users/amandachan/Projects/CS481HW5/CS481HW5/bin/Debug/netstandard2.0/CS481HW5.pdb
-/Users/amandachan/Projects/CS481HW5/CS481HW5/obj/Debug/netstandard2.0/CS481HW5.csprojAssemblyReference.cache
+/Users/amandachan/Projects/CS481HW5/CS481HW5/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/amandachan/Projects/CS481HW5/CS481HW5/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/amandachan/Projects/CS481HW5/CS481HW5/obj/Debug/netstandard2.0/CS481HW5.AssemblyInfoInputs.cache
+/Users/amandachan/Projects/CS481HW5/CS481HW5/obj/Debug/netstandard2.0/CS481HW5.AssemblyInfo.cs
 /Users/amandachan/Projects/CS481HW5/CS481HW5/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/amandachan/Projects/CS481HW5/CS481HW5/obj/Debug/netstandard2.0/CS481HW5.dll
 /Users/amandachan/Projects/CS481HW5/CS481HW5/obj/Debug/netstandard2.0/ref/CS481HW5.dll

@@ -1,6 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps" mc:Ignorable="d" x:Class="CS481HW5.MainPage">
     <StackLayout>
-       <maps:Map x:Name="Map" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></maps:Map>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Text="Satellite" FontSize="Small" TextColor="Black" Clicked="OnSatClicked" Grid.Row="0" Grid.Column="1"></Button>
+            <Button Text="Street" FontSize="Small" TextColor="Black" Clicked="BacktoStreet" Grid.Row="0" Grid.Column="0"></Button>
+        </Grid>
+        <maps:Map x:Name="HomeMap" HasScrollEnabled="True" IsShowingUser="True" HasZoomEnabled="True">
+            <x:Arguments>
+                <maps:MapSpan>
+                    <x:Arguments>
+                        <maps:Position>
+                            <x:Arguments>
+                                <x:Double>33.1392</x:Double>
+                                <x:Double>-117.1695</x:Double>
+                            </x:Arguments>
+                        </maps:Position>
+                        <x:Double>0.005</x:Double>
+                        <x:Double>0.005</x:Double>
+                    </x:Arguments>
+                </maps:MapSpan>
+            </x:Arguments>
+        </maps:Map>
     </StackLayout>
 </ContentPage>
